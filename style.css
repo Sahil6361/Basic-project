@@ -16,10 +16,16 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow background */
     width: 300px;
     transition: transform 0.3s ease; /* Add transition for animation */
+    text-align: center; /* Center the content */
 }
 
 .login-container.active {
     transform: scale(1.05); /* Scale up the container when active */
+}
+
+.login-image {
+    width: 100px; /* Adjust the size of the image */
+    margin-bottom: 20px; /* Add space below the image */
 }
 
 form {
